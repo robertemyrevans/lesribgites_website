@@ -1,0 +1,241 @@
+/*
+CSS for Les Ridaudieres Site
+*/
+
+/*
+Divisions
+*/
+
+
+
+#tagline p {
+  font-style: italic;
+  font-family: Georgia, Times, serif;
+  border-top: 2px solid brown;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  padding-left: .8em;
+  margin: 0;
+  width: 62.7em;
+}
+
+
+#navigation {
+  padding-top: .1em;
+  padding-bottom: .2em;
+  padding-left: .8em;
+  margin: 0;
+  color: white;
+  background-color: brown;
+}
+
+
+#navigation li { 
+ display: inline;
+} 
+
+
+#navigation ul {
+ margin-top: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px;
+ margin-right: 0px;
+letter-spacing: -1px; 
+}
+
+
+
+#bodycontent {
+  padding-bottom: .2em;
+  padding-left: .8em;
+  margin: 0;
+  font-size: small;
+}
+
+
+
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif; 
+  background: brown url(../backgrounds/sunflower.jpg) top left;
+  background-repeat: no-repeat;
+  line-height: 145%;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+h1, h2, h3 {
+  font-family:  "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+
+
+h1 {
+  font-size: x-large;
+
+  color: white;
+  padding-top: 0.8em;
+  padding-bottom: .4em;
+  padding-left: .5em;
+  margin: 0;
+}
+
+
+h2 {
+  color: white;
+  font-size: 150%;
+  font-weight: normal;
+  margin-top: 15px;
+}
+
+h3 {
+  color: white;
+  font-weight: normal;
+  padding-top: 5px;
+}
+
+
+#bodycontent li {
+  font-size: small;
+  list-style-type: bullets;
+
+  color: gold;
+/*  width: 55em;*/
+}
+
+#bodycontent ul {
+/*  width: 55em;*/
+ margin-top: 15px;
+  list-style-type: bullets;
+  ;
+}
+
+p {
+  font-size: small;
+  color: gold;
+}
+
+p.short_line
+{
+  width: 55em;
+}
+
+
+em {
+  text-transform: uppercase;
+}
+
+a {
+  font-size: small;
+  text-decoration: none;
+  font-family: arial, Times, serif;
+}
+
+a:link {
+  color: gold;
+}
+
+a:visited {
+  color: gold;
+}
+
+a:hover {
+
+  color: brown;
+  background-color: gold;
+}
+
+a:active {
+  color: black;
+}
+
+
+.fun, a.fun {
+  color: white;
+  font-family: Georgia, Times, serif;
+  letter-spacing: 0.06em;
+  font-style: italic;
+  font-size: 110%;
+}
+
+
+img.feature {
+  float: right;
+  margin: 10px;
+  border: 1px solid white;
+}
+
+
+img.home_feature {
+  float: centre;
+  margin: 10px;
+  border: 1px solid white;
+}
+
+img.left_feature {
+  float: left;
+  margin: 10px;
+  border: 1px solid white;
+}
+
+
+/*
+This section deals with the position of items on the screen.
+It uses absolute positioning - fixed x and y coordinates measured from the
+top-left corner of the browser's content display.
+*/
+
+
+
+#container {
+  position: relative;
+  left: 50px;
+  top: 10px;
+  height: 65em;
+}
+
+/*
+#container { 
+ margin: 0 auto; 
+
+ width: 560px
+ text-align: left; 
+} */
+
+
+#navigation { width: 52.0em; }
+
+#header {  width: 50.6em; }
+
+#container {  width: 55em; 
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  p  {
+	/*font-size: large;
+	*/
+  }
+}
+
+
+
+/*
+     FILE ARCHIVED ON 07:25:03 Feb 04, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:35:51 May 10, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 197.253
+  exclusion.robots: 0.204
+  exclusion.robots.policy: 0.19
+  cdx.remote: 0.091
+  esindex: 0.01
+  LoadShardBlock: 168.489 (3)
+  PetaboxLoader3.datanode: 97.349 (4)
+  PetaboxLoader3.resolve: 191.499 (3)
+  load_resource: 132.221
+*/
